@@ -1,0 +1,3 @@
+1. Given the weather report for the city of Chicago this morning, describe the weather as you would a chicagoan would see outside.
+3. Ensure that you do so without specifying any of the numerical details. 
+4. Ensure that you are describing the weather in an artistic manner.

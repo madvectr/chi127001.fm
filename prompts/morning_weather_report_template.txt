@@ -1,0 +1,4 @@
+1. Give me the morning weather report for the city of Chicago today. 
+2. Instead of giving a standard report try to explain the weather as you would see it outside based on the conditions defined in the weather report. 
+3. Ensure that you do so without specifying any of the numerical details. 
+4. Ensure that you are describing the weather in an artistic manner.
