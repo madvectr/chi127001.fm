@@ -1,4 +1,11 @@
-1. Give me the morning weather report for the city of Chicago today. 
+1. Give me the morning weather report for the city of {city} {date}. 
 2. Instead of giving a standard report try to explain the weather as you would see it outside based on the conditions defined in the weather report. 
 3. Ensure that you do so without specifying any of the numerical details. 
 4. Ensure that you are describing the weather in an artistic manner.
+5. You must describe the conditions in 4 paragraphs one for each of the following time periods: day, morning, afternoon, night 
+6. You must add last paragraph after the 4 in instruction (5). This paragraph must try to describe the entirety of the day based on instructions (1) -> (5)
+
+Your output should be in the following JSON format:
+{{"day": "<description of the day>", "morning": "<description of the morning>", "afternoon": "<description of the afternoon>", "night": "<description of the night>", "entire_day": "<description of the entire day>"}}
+
+Ensure that you only return the JSON output and nothing else.
