@@ -53,5 +53,4 @@ if __name__ == "__main__":
         print(f'{song["song"]}\n\n')
         print(f'{song["reasoning"]}\n\n')
         print(f'{song["rhythm"]}\n\n')
-        print(f'{song["genre"]}\n\n')
         print("--------------------------------")
